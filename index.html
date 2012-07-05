@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--[if lt IE 7]><html class="ie ie6 no-js" lang="en"><![endif]-->
 <!--[if IE 7]><html class="ie ie7 no-js" lang="en"><![endif]-->
 <!--[if IE 8]><html class="ie ie8 no-js" lang="en"><![endif]-->
@@ -61,50 +61,61 @@
 </head>
 
 <body>
-
 <div class="wrapper"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
+<div class="container">
+<div class="row">
+	<div class="span12">
 
-	<header>
+		<header role="banner">
+			
+			<h1><a href="/">Page Title</a></h1>
+			
+			<nav>
+			
+				<ol>
+					<li><a href="">Nav Link 1</a></li>
+					<li><a href="">Nav Link 2</a></li>
+					<li><a href="">Nav Link 3</a></li>
+				</ol>
+			
+			</nav>
 		
-		<h1><a href="/">Page Title</a></h1>
+		</header>
+	</div>	
+	<div class="span12">
 		
-		<nav>
+		<article>
+			
+			<h1>Article Header</h1>
+			
+			<p>Etiam pretium odio eu mi convallis vitae varius neque pharetra. Nulla vestibulum nisi ut sem cursus sed mattis nisi egestas.</p>
+			
+			<h2>Article Subhead</h2>
+			
+			<p>Vestibulum lacus erat, volutpat vel dignissim at, fringilla ut felis.</p>
 		
-			<ol>
-				<li><a href="">Nav Link 1</a></li>
-				<li><a href="">Nav Link 2</a></li>
-				<li><a href="">Nav Link 3</a></li>
-			</ol>
-		
-		</nav>
+		</article>
 	
-	</header>
-	
-	<article>
+		<aside>
 		
-		<h1>Article Header</h1>
+			<h2>Sidebar Content</h2>
 		
-		<p>Etiam pretium odio eu mi convallis vitae varius neque pharetra. Nulla vestibulum nisi ut sem cursus sed mattis nisi egestas.</p>
-		
-		<h2>Article Subhead</h2>
-		
-		<p>Vestibulum lacus erat, volutpat vel dignissim at, fringilla ut felis.</p>
-	
-	</article>
-	
-	<aside>
-	
-		<h2>Sidebar Content</h2>
-	
-	</aside>
-	
-	<footer>
-		
-		<p><small>&copy; Copyright Your Name Here 2011. All Rights Reserved.</small></p>
-		
-	</footer>
+		</aside>
 
-</div>
+	</div>
+	<div class="span12">
+	
+		<footer role="contentinfo">
+			
+			<p><small>&copy; Copyright Your Name Here 2012. All Rights Reserved.</small></p>
+			
+		</footer>
+
+	</div>
+
+</div> <!-- end row -->
+</div> <!-- end container -->
+</div> <!-- end wrapper -->
 
 <!-- here comes the javascript -->
 
